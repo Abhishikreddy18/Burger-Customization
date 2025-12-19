@@ -1,0 +1,68 @@
+/* AdminDropdownHeader.css */
+
+/* Style for the dropdown toggle button */
+.dropdown-toggle {
+  background-color: #343a40; /* Dark background color */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  padding: 0.5rem 1rem; /* Padding for better spacing */
+}
+
+/* Custom style for the dropdown menu */
+.dropdown-menu-custom {
+  background-color: #343a40; /* Dark background */
+  border: none; /* Remove border */
+  min-width: 200px; /* Minimum width for the dropdown */
+}
+
+/* Style for the dropdown items */
+.dropdown-item-custom {
+  color: white; /* White text color */
+}
+
+.dropdown-item-custom:hover {
+  background-color: #495057; /* Darker background on hover */
+  color: white; /* White text color on hover */
+}
+
+/* Style for the modal header */
+.modal-header-custom {
+  background-color: #343a40; /* Dark background */
+  color: white; /* White text color */
+  border-bottom: none; /* Remove border */
+}
+
+/* Style for the modal footer */
+.modal-footer-custom {
+  background-color: #343a40; /* Dark background */
+  color: white; /* White text color */
+  border-top: none; /* Remove border */
+}
+
+/* General button style */
+.button-custom {
+  background-color: #007bff; /* Blue background */
+  color: white; /* White text color */
+  border: none; /* Remove border */
+  padding: 0.5rem 1rem; /* Padding for better spacing */
+  border-radius: 5px; /* Rounded corners */
+  cursor: pointer; /* Pointer cursor on hover */
+  font-size: 1rem; /* Set font size */
+}
+
+.button-custom:hover {
+  background-color: #0056b3; /* Darker blue background on hover */
+}
+
+/* Style for ingredient item */
+.ingredient-item {
+  background-color: #ffffff; /* White background */
+  border: 1px solid #ccc; /* Light gray border */
+  border-radius: 5px; /* Rounded corners */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  padding: 1rem; /* Padding inside the card */
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between elements */
+  align-items: center; /* Center align items */
+  margin-bottom: 1rem; /* Spacing between items */
+}
